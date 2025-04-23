@@ -2,7 +2,6 @@ const fs = require("fs");
 const num = +fs.readFileSync(0).toString().trim();
 
 let str = '';
-const x = 1;
 
 for (let i = 1; i < 6; i++) {
     if (i !== 5) str += num * i + ' ';
