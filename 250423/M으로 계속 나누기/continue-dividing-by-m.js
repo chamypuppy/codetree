@@ -6,8 +6,7 @@ let n = +arr[0];
 let m = +arr[1];
 
 // Please write your code here.
-while(n > 0) {
+while(n > 1) {
     console.log(Math.floor(n));
-    if (n > m) n /= m;
-    else return;
+    n /= m;
 }
